@@ -1,0 +1,36 @@
+site_name: TEKSYS Eletrônica
+site_description: Assistencia Tecnica expecializada & Autorizada
+site_author: Seu Nome
+
+nav:
+  - Home: index.md  
+  - Downloads: downloads.md
+  - Dicas: dicas.md
+  - Blog: blog.md
+  - Mural: mural 
+  - Sobre: about.md
+
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: pink
+
+plugins:
+  - search
+
+
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+
+
+
+
+
+
+
+
+
+
